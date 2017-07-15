@@ -1,7 +1,9 @@
 # RealTimeOscilloscope
 Analyse incoming signal using FreeRTOS facilities and basic math calculations.
 
+<p align="justify">
 Project was designed using GNAT Programming Studio. Main functionality allows to measure voltage from ADC (12-bit), display it on graphical interface and send to the PC in order to process the data. The acquisition starts after connecting the device to a power supply. The collected data is stored in a buffer, then being displayed on the lcd screen or sent to PC using UART. Display shows graph, measurements (current value, min/max), touch buttons (providing UART configuration and sending measurement buffer). It is possible to clear the buffer by touching (and holding for a while) a graph on the screen. User button can change graph plotting mode.
+</p>
 
 ## HOW TO USE
 
